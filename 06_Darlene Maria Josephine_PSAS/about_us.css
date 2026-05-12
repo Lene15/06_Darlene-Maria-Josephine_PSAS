@@ -1,0 +1,486 @@
+
+
+/* NAVBAR */
+nav{
+    position: relative;
+    background: rgba(0,0,0,0.7);
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    padding: 12px 30px;
+}
+
+/* LOGO */
+.logo-nav a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+/* MENU CENTER */
+.nav-mid{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* LINK */
+.nav-mid li a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 12px 18px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+/* HOVER */
+.nav-mid li a:hover{
+    background: #98b2a0;
+}
+
+
+
+
+body{
+    background:linear-gradient(135deg,#f8f5f0,#efe7dd,#ddd0c8);
+    font-family: "Poppins", sans-serif;
+}
+
+/* SECTION ATAS */
+
+table{
+    width: 100%;
+}
+
+td{
+    vertical-align: top;
+    padding: 20px;
+}
+
+@media (max-width: 1200px){
+    tr{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img_gw,
+    .utama{
+        width: 100%;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .title-decoration{
+        justify-content: center;
+    }
+}
+
+/* FOTO */
+.img_gw{
+    position: relative;
+    width: 35%;
+    transform: none;
+    padding-top: 70px;
+}
+
+.img_gw img{
+    width: 100%;
+    max-width: 400px;
+    border: 12px solid #fff;
+    border-radius: 8px;
+    transform: rotate(-4deg);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.desk0{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    background: #e8dccb;
+    padding: 20px;
+    width: 220px;
+    font-size: 28px;
+    font-family: 'Dancing Script', cursive;
+    transform: rotate(-6deg);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+
+/* TENGAH */
+.utama{
+    width: 65%;
+    padding-top: 70px;
+    padding-left: 40px;
+}
+
+.utama h1{
+    font-size: 90px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.title-decoration{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #b7ae97;
+    margin-bottom: 30px;
+}
+
+.title-decoration span{
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #b7ae97;
+}
+
+.utama h4{
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.utama h4 span{
+    font-family: 'Dancing Script', cursive;
+    color: #8d8767;
+    font-size: 48px;
+}
+
+.desk1 p{
+    font-size: 25px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.desk2{
+    font-size: 25px;
+}
+
+/* SECTION MID */
+
+.mid-section{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+/* FUN FACTS */
+
+.funfacts{
+    background: #fcfaf7;
+    width: 35%;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    margin-left: 30px;
+}
+
+.funfacts h1{
+    text-align: center;
+    margin-bottom: 25px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.funfacts p{
+    font-size: 22px;
+    line-height: 1.8;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+/* WHAT I LOVE */
+.love{
+    background: #fcfaf7;
+    width: 65%;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    margin-right: 30px;
+}
+
+.love h1{
+    font-size: 55px;
+    margin-bottom: 25px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500;
+}
+
+.love-img{
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin-bottom: 25px;
+}
+
+.love-img div{
+    background: white;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.love-img img{
+    width: 150px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.love-img p{
+    margin-top: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+}
+
+.love-desc{
+    font-size: 26px;
+    line-height: 1.5;
+}
+
+
+/* SECTION BOTTOM */
+.bottom-section{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background: #f1ebe5;
+}
+
+/* CONNECT */
+
+/* SECTION */
+
+.bottom-section{
+    padding:80px 0;
+}
+
+/* CONNECT BOX */
+.row{
+    justify-content:center;
+}
+
+.connect{
+    width:90%;
+    margin:auto;
+
+    background:white;
+
+    padding:50px;
+
+    border-radius:30px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,0.08);
+}
+
+/* TITLE */
+
+.connect h1{
+    font-size:55px;
+
+    margin-bottom:10px;
+
+    font-family:'Dancing Script', cursive;
+
+    font-weight:600;
+
+    text-align:center;
+
+    color:#3d2b1f;
+}
+
+/* SUBTITLE */
+
+.connect p{
+    font-size:22px;
+
+    margin-bottom:40px;
+
+    text-align:center;
+
+    color:#7a6a5c;
+}
+
+.connect a{
+    display: block;
+    text-decoration: none;
+    background: #f2ece2;
+    color: #4b382c;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    font-size: 24px;
+    transition: 0.3s;
+}
+
+.connect a:hover{
+    background: #d9cfbf;
+    transform: scale(1.03);
+}
+
+.why-card{
+    background:white;
+    padding:45px 35px;
+    border-radius:28px;
+
+    transition:0.4s;
+
+    height:100%;
+
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
+
+.why-card:hover{
+    transform:translateY(-10px);
+
+    box-shadow:0 18px 35px rgba(0,0,0,0.12);
+}
+
+/* ICON CIRCLE */
+
+.icon-circle{
+    width:95px;
+    height:95px;
+
+    margin:auto;
+    margin-bottom:25px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    border-radius:50%;
+
+    font-size:40px;
+
+    text-decoration:none;
+
+    transition:0.35s;
+}
+
+/* ICON COLORS */
+
+.instagram{
+    background:#eee7e2;
+    color:#9b6b43;
+}
+
+.tiktok{
+    background:#eee7e2;
+    color:#9b6b43;
+}
+
+.youtube{
+    background:#eee7e2;
+    color:#9b6b43;
+}
+
+/* HOVER */
+
+.icon-circle:hover{
+    transform:scale(1.08);
+}
+
+/* TITLE */
+
+.why-card h4{
+    font-size:28px;
+    font-weight:bold;
+
+    color:#1f1f1f;
+
+    margin-bottom:18px;
+}
+
+/* TEXT */
+
+.why-card p{
+    font-size:17px;
+    line-height:1.8;
+
+    color:#6b6b6b;
+}
+
+
+
+
+/* FOOTER */
+.footer-section{
+    background: #1f1f1f;
+    color: white;
+    padding: 80px 0 30px;
+}
+
+/* LOGO */
+.footer-logo{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* DESCRIPTION */
+.footer-desc{
+    color: #cfcfcf;
+    line-height: 1.8;
+    font-size: 17px;
+}
+
+/* TITLE */
+.footer-title{
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* LINKS */
+.footer-links{
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li{
+    margin-bottom: 15px;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: #d6d6d6;
+    transition: 0.3s;
+}
+
+/* HOVER */
+.footer-links a:hover{
+    color: white;
+    padding-left: 5px;
+}
+
+/* CONTACT */
+.footer-contact{
+    color: #d6d6d6;
+    margin-bottom: 15px;
+    font-size: 17px;
+}
+
+/* COPYRIGHT */
+.footer-bottom{
+    border-top: 1px solid rgba(255,255,255,0.2);
+    margin-top: 50px;
+    padding-top: 25px;
+    text-align: center;
+    color: #bdbdbd;
+}

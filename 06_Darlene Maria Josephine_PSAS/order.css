@@ -1,0 +1,388 @@
+body{
+    background:linear-gradient(135deg,#f8f5f0,#efe7dd,#ddd0c8);
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+/* NAVBAR */
+nav{
+    position: relative;
+    background: rgba(0,0,0,0.7);
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    padding: 12px 30px;
+}
+
+/* LOGO */
+.logo-nav a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+/* MENU CENTER */
+.nav-mid{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* LINK */
+.nav-mid li a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 12px 18px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+/* HOVER */
+.nav-mid li a:hover{
+    background: #98b2a0;
+}
+
+
+
+
+/* SECTION */
+section{
+    padding:80px 0;
+}
+
+/* MAIN TABLE */
+.order-table{
+    width:85%;
+    margin:auto;
+    background:#fdfaf4;
+    border-radius:30px;
+    overflow:hidden;
+    box-shadow:0 10px 30px rgba(0,0,0,0.12);
+    border-collapse:separate;
+}
+
+/* IMAGE */
+.img-side{
+    width:45%;
+}
+
+.img-side img{
+    width:100%;
+    height:850px;
+    object-fit:cover;
+    display:block;
+    margin-left: 30px;
+}
+
+/* FORM SIDE */
+.form-side{
+    padding:50px;
+    vertical-align:top;
+}
+
+/* TITLE */
+.form-side h1{
+    font-size:65px;
+    line-height:1.1;
+    text-align:center;
+    color:#3b2418;
+    margin-bottom:20px;
+    font-family:Georgia, serif;
+}
+
+/* HIASAN BAWAH TITLE */
+.title-decoration{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:15px;
+    margin-bottom:25px;
+    color:#9a8d72;
+    font-size:22px;
+}
+
+.title-decoration span{
+    width:120px;
+    height:1px;
+    background:#c7bca7;
+    display:block;
+}
+
+/* PARAGRAPH */
+.form-side p{
+    text-align:center;
+    color:#6b625b;
+    line-height:1.8;
+    margin-bottom:40px;
+    font-size:18px;
+}
+
+/* FORM TABLE */
+.form-table{
+    width:100%;
+    border-collapse:separate;
+}
+
+/* TD */
+.form-table td{
+    padding:15px;
+    vertical-align:top;
+}
+
+/* LABEL */
+.form-table label{
+    font-size:20px;
+    font-weight:600;
+    color:#2e1f17;
+}
+
+/* INPUT */
+input,
+select,
+textarea{
+    width:100%;
+    padding:15px 18px;
+    border-radius:15px;
+    border:1px solid #d7d0c7;
+    background:#fffdf9;
+    margin-top:12px;
+    font-size:16px;
+    outline:none;
+}
+
+/* TEXTAREA */
+textarea{
+    height:130px;
+    resize:none;
+}
+
+/* RADIO */
+.radio-group{
+    margin-top:15px;
+}
+
+.radio-item{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    margin-bottom:15px;
+    font-size:18px;
+    color:#3c2c22;
+}
+
+.radio-item input{
+    width:20px;
+    height:20px;
+    margin:0;
+    accent-color:#8f9573;
+}
+
+/* CHECKBOX */
+.checkbox-group{
+    margin-top:15px;
+}
+
+.checkbox-item{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    margin-bottom:15px;
+    font-size:18px;
+    color:#3c2c22;
+}
+
+.checkbox-item input{
+    width:20px;
+    height:20px;
+    margin:0;
+    accent-color:#8f9573;
+}
+
+/* BUTTON */
+.order-btn{
+    width:100%;
+    padding:18px;
+    border:none;
+    border-radius:18px;
+    background:#8f9573;
+    color:white;
+    font-size:28px;
+    margin-top:20px;
+    transition:0.3s;
+}
+
+.order-btn:hover{
+    background:#747b5b;
+}
+
+.order-btn i{
+    margin-right:10px;
+}
+
+/* RESPONSIVE */
+@media(max-width:992px){
+
+    .order-table,
+    .order-table tr,
+    .order-table td{
+        display:block;
+        width:100%;
+    }
+
+    .img-side img{
+        height:500px;
+    }
+
+    .form-side h1{
+        font-size:45px;
+    }
+
+}
+
+
+
+
+    .review-section {
+      background-color: #f7f1ea;
+      padding: 80px 20px;
+      border-radius: 20px;
+    }
+
+    .section-title {
+      font-size: 52px;
+      font-weight: 700;
+      color: #3e2a1f;
+    }
+
+    .section-subtitle {
+      font-size: 22px;
+      color: #5f5147;
+      margin-bottom: 55px;
+    }
+
+    .review-card {
+      border: none;
+      border-radius: 22px;
+      padding: 35px;
+      background: white;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+      height: 100%;
+      transition: 0.3s;
+    }
+
+    .review-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .review-header {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      margin-bottom: 25px;
+    }
+
+    .review-header img {
+      width: 90px;
+      height: 90px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+
+    .review-name {
+      font-size: 24px;
+      font-weight: 700;
+      color: #5a3420;
+      margin-bottom: 8px;
+    }
+
+    .stars {
+      color: #e3a22b;
+      font-size: 20px;
+    }
+
+    .review-text {
+      color: #5c514a;
+      font-size: 18px;
+      line-height: 1.8;
+    }
+
+
+
+
+/* FOOTER */
+.footer-section{
+    background: #1f1f1f;
+    color: white;
+    padding: 80px 0 30px;
+}
+
+/* LOGO */
+.footer-logo{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* DESCRIPTION */
+.footer-desc{
+    color: #cfcfcf;
+    line-height: 1.8;
+    font-size: 17px;
+}
+
+/* TITLE */
+.footer-title{
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* LINKS */
+.footer-links{
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li{
+    margin-bottom: 15px;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: #d6d6d6;
+    transition: 0.3s;
+}
+
+/* HOVER */
+.footer-links a:hover{
+    color: white;
+    padding-left: 5px;
+}
+
+/* CONTACT */
+.footer-contact{
+    color: #d6d6d6;
+    margin-bottom: 15px;
+    font-size: 17px;
+}
+
+/* COPYRIGHT */
+.footer-bottom{
+    border-top: 1px solid rgba(255,255,255,0.2);
+    margin-top: 50px;
+    padding-top: 25px;
+    text-align: center;
+    color: #bdbdbd;
+}

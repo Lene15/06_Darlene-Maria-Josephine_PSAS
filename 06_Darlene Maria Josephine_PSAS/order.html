@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paperloom</title>
+    <link rel="stylesheet" href="order.css">
+    <link rel="icon" type="image/png" href="Logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+<body>
+<nav>
+    <div class="logo-nav">
+        <a href="#">
+            <img src="logo.png" alt="Logo" width="60" height="60">
+            Paperloom
+        </a>
+    </div>
+
+    <ul class="nav-mid">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="content.html">Content</a></li>
+        <li><a href="order.html">Order</a></li>
+        <li><a href="about_us.html">About Us</a></li>
+    </ul>
+</nav>
+
+
+<section>
+    <table class="order-table">
+        <tr>
+            <td class="img-side"><img src="order.jpg" alt=""></td>
+
+            
+            <td class="form-side">
+                <h1>Order Your <br> Favourite Book</h1>
+                <div class="title-decoration">
+                    <span></span>
+                        ✦
+                    <span></span>
+                </div>
+                <p>Fill in the form below to order books from Paperloom.
+                    <br>
+                    Choose your favourite category and complete your purchase easily.
+                </p>
+
+                <form>
+                    <table class="form-table">
+                        <tr>
+                            <td><label>Full Name</label>
+                                <br>
+                                <input type="text" placeholder="Enter your name">
+                            </td>
+
+                            <td><label>Email</label>
+                                <br>
+                                <input type="email" placeholder="Enter your email">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><label>Book Title</label>
+                                <br>
+                                <input type="text" placeholder="Enter your book title">
+                            </td>
+
+                            <td>
+                                <label>Book Category</label>
+                                <br>
+                                <select>
+                                    <option>Choose Category</option>
+                                    <option>Novel</option>
+                                    <option>Comic</option>
+                                    <option>Education</option>
+                                    <option>History</option>
+                                    <option>Technology</option>
+                                    <option>Romance</option>
+                                </select>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label>Payment Method</label>
+                                <div class="radio-group">
+                                    <label class="radio-item">
+                                        <input type="radio" name="payment">
+                                        Bank Transfer
+                                    </label>
+
+                                    <label class="radio-item">
+                                        <input type="radio" name="payment">
+                                        E-Wallet
+                                    </label>
+
+                                    <label class="radio-item">
+                                        <input type="radio" name="payment">
+                                        Cash On Delivery
+                                    </label>
+                                </div>
+                            </td>
+
+                            <td>
+                                <label>Additional Services</label>
+                                <div class="checkbox-group">
+                                    <label class="checkbox-item">
+                                        <input type="checkbox">
+                                        Gift Wrapping
+                                    </label>
+
+                                    <label class="checkbox-item">
+                                        <input type="checkbox">
+                                        Express Delivery
+                                    </label>
+
+                                    <label class="checkbox-item">
+                                        <input type="checkbox">
+                                        Bookmark Bonus
+                                    </label>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2">
+                                <label>Shipping Address</label>
+                                <textarea placeholder="Enter your address"></textarea>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2">
+                                <button type="submit" class="order-btn">
+                                    <i class="bi bi-cart3"></i>
+                                    Place Order
+                                </button>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </td>
+        </tr>
+    </table>
+</section>
+
+
+
+
+<section class="review-section container my-5">
+
+    <div class="text-center">
+      <h1 class="section-title">Customer Reviews</h1>
+
+      <p class="section-subtitle">
+        What readers say about Paperloom.
+      </p>
+    </div>
+
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="card review-card">
+
+          <div class="review-header">
+            <img src="https://i.pravatar.cc/150?img=32" alt="Clara">
+
+            <div>
+              <h4 class="review-name">Clara</h4>
+
+              <div class="stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+            </div>
+          </div>
+
+          <p class="review-text">
+            “The packaging was beautiful and the books arrived in perfect
+            condition."
+          </p>
+
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-4">
+        <div class="card review-card">
+
+          <div class="review-header">
+            <img src="https://i.pravatar.cc/150?img=12" alt="Daniel">
+
+            <div>
+              <h4 class="review-name">Daniel</h4>
+
+              <div class="stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+            </div>
+          </div>
+
+          <p class="review-text">
+            “Amazing book collections and very fast delivery.
+            Definitely ordering again.”
+          </p>
+
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-4">
+        <div class="card review-card">
+
+          <div class="review-header">
+            <img src="https://i.pravatar.cc/150?img=47" alt="Sophia">
+
+            <div>
+              <h4 class="review-name">Sophia</h4>
+
+              <div class="stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+            </div>
+          </div>
+
+          <p class="review-text">
+            “The website design is aesthetic and the shopping
+            experience feels premium.”
+          </p>
+
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+<footer class="footer-section">
+    <div class="container">
+        <div class="row gy-5">
+
+            <!-- ABOUT WEBSITE -->
+            <div class="col-lg-4">
+                <h3 class="footer-logo">
+                    <i class="bi bi-book-half"></i> Paperloom
+                </h3>
+                <p class="footer-desc">
+                    Paperloom is an online bookstore website that offers a diverse collection of interesting books, from novels and comics to educational and self-development books, at affordable prices and the highest quality.
+                </p>
+            </div>
+
+            <!-- QUICK LINKS -->
+            <div class="col-lg-4">
+                <h4 class="footer-title">
+                    Quick Links
+                </h4>
+                <ul class="footer-links">
+                    <li>
+                        <a href="home.html">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="content.html">
+                            Content
+                        </a>
+                    </li>
+                    <li>
+                        <a href="order.html">
+                            Order
+                        </a>
+                    </li>
+                    <li>
+                        <a href="about_us.html">
+                            About Us
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- CONTACT -->
+            <div class="col-lg-4">
+                <h4 class="footer-title">
+                    Contact
+                </h4>
+                <p class="footer-contact">
+                    📍 Surabaya, Indonesia
+                </p>
+                <p class="footer-contact">
+                    📞 +62 821-4103-7112
+                </p>
+                <p class="footer-contact">
+                    ✉️ paperloom@gmail.com
+                </p>
+            </div>
+        </div>
+
+        <!-- COPYRIGHT -->
+        <div class="footer-bottom">
+            <p>
+                &copy;Copyright Darlene_Maria_Josephine 2026
+            </p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

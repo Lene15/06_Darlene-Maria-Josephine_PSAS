@@ -1,0 +1,332 @@
+body{
+    background:linear-gradient(135deg,#f8f5f0,#efe7dd,#ddd0c8);
+}
+
+
+
+/* NAVBAR */
+nav{
+    position: relative;
+    background: rgba(0,0,0,0.7);
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    padding: 12px 30px;
+}
+
+/* LOGO */
+.logo-nav a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+/* MENU CENTER */
+
+.nav-mid{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* LINK */
+
+.nav-mid li a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 12px 18px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+/* HOVER */
+
+.nav-mid li a:hover{
+    background: #98b2a0;
+}
+
+
+
+.category-heading{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.category-heading h1{
+    font-size: 55px;
+    font-weight: bold;
+    color: #222;
+}
+
+.book{
+    margin-bottom: 50px;
+}
+
+/* SECTION */
+section{
+    padding: 20px 0;
+    background: #f8f5f2;
+    font-family: Poppins, sans-serif;
+}
+
+/* MAIN TABLE */
+section table{
+    width: 85%;
+    margin: auto;
+    background: white;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+    border-collapse: separate;
+}
+
+/* IMAGE SIDE */
+section img{
+    width: 320px;
+    border-radius: 20px;
+    object-fit: cover;
+    transition: 0.4s;
+}
+
+section img:hover{
+    transform: scale(1.03);
+}
+
+/* TD */
+section td{
+    vertical-align: top;
+    padding: 40px;
+}
+
+/* TITLE */
+.title h1{
+    font-size: 42px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 15px;
+}
+
+/* PRICE */
+.price h2{
+    color: #8b5e3c;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* DESCRIPTION */
+.description h3{
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+.description p{
+    font-size: 17px;
+    color: #555;
+    line-height: 1.9;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+/* DETAILS */
+.detail h3{
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+/* DETAIL TABLE */
+.detail table{
+    width: 100%;
+    border-collapse: collapse;
+    background: #fafafa;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: none;
+}
+
+/* DETAIL TD */
+.detail td{
+    border: 1px solid #e5e5e5;
+    padding: 18px;
+    font-size: 16px;
+    color: #444;
+    line-height: 1.7;
+}
+
+/* HOVER DETAIL */
+.detail td:hover{
+    background: #f1ece6;
+    transition: 0.3s;
+}
+
+/* RESPONSIVE */
+@media(max-width:992px){
+    section table,
+    section tr,
+    section td{
+        display: block;
+        width: 100%;
+    }
+    section img{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .title h1{
+        font-size: 32px;
+    }
+    .price h2{
+        font-size: 28px;
+    }
+}
+
+
+/* BACK BUTTON */
+.back-btn{
+    display: inline-block;
+    background: #8b5e3c;
+    color: white;
+    text-decoration: none;
+    padding: 14px 32px;
+    border-radius: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.4s;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/* HOVER */
+.back-btn:hover{
+    background: #6f472b;
+    transform: translateY(-3px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+    color: white;
+}
+
+/* CLICK */
+.back-btn:active{
+    transform: scale(0.97);
+}
+
+
+.button-container{
+    text-align: center;
+}
+
+
+/* FOOTER */
+.footer-section{
+    background: #1f1f1f;
+    color: white;
+    padding: 80px 0 30px;
+}
+
+/* LOGO */
+.footer-logo{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* DESCRIPTION */
+.footer-desc{
+    color: #cfcfcf;
+    line-height: 1.8;
+    font-size: 17px;
+}
+
+/* TITLE */
+.footer-title{
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* LINKS */
+.footer-links{
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li{
+    margin-bottom: 15px;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: #d6d6d6;
+    transition: 0.3s;
+}
+
+/* HOVER */
+.footer-links a:hover{
+    color: white;
+    padding-left: 5px;
+}
+
+/* CONTACT */
+.footer-contact{
+    color: #d6d6d6;
+    margin-bottom: 15px;
+    font-size: 17px;
+}
+
+/* COPYRIGHT */
+.footer-bottom{
+    border-top: 1px solid rgba(255,255,255,0.2);
+    margin-top: 50px;
+    padding-top: 25px;
+    text-align: center;
+    color: #bdbdbd;
+}
+
+
+/* ARROW BUTTON */
+.arrow-btn{
+    position: fixed;
+    right: 25px;
+    width: 55px;
+    height: 55px;
+    background: #8b5e3c;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 30px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    z-index: 999;
+}
+
+
+/* POSISI */
+.down-arrow{
+    bottom: 25px;
+}
+
+.up-arrow{
+    bottom: 95px;
+}
+
+/* HOVER */
+.arrow-btn:hover{
+    background: #6f472b;
+    transform: translateY(-5px);
+    color: white;
+}
